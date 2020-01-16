@@ -1,4 +1,4 @@
-function binarySearch(numArray, targetValue) {
+function binarySearch(numArray: number[], targetValue: number) {
   let startIndex = 0;
   let endIndex = numArray.length - 1;
   let middleIndex = Math.floor(numArray.length / 2);
@@ -27,7 +27,7 @@ function binarySearch(numArray, targetValue) {
   }
 }
 
-const numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 100];
+const numArray: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 100];
 
 /*
 three edge cases:
