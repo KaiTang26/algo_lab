@@ -1,7 +1,7 @@
 const slidingWindow = (s: string, n: number) => {
   const subStringList = [];
 
-  for (let i = 0; i < s.length - 1; i++) {
+  for (let i = 0; i < s.length; i++) {
     const subString = s.substring(i, i + n);
     if (subString.length === n) {
       subStringList.push(subString);
