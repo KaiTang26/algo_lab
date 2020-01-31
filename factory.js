@@ -14,4 +14,4 @@ function p(n, k) {
   return result;
 }
 
-console.log(3 % 2);
+module.exports = factorial;

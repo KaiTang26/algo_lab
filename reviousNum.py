@@ -18,6 +18,9 @@ def isLeapYear(yr):
   
   return False
 
+
+print(list(range(10,0,-2)))
+
   
 
 
